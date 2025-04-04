@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Syntax</title>
+</head>
+<body>
+    <h3>Variabel Pertama</h3>
+    <p id="first_v"></p>
+    <hr>
+    <h3>Variabel Pertama</h3>
+    <p id="second_v"></p>
+    <hr>
+    <h3>Variabel Pertama</h3>
+    <p id="third_v"></p>
+    <hr>
+
+    <h3>Hasil Pertama</h3>
+    <p id="first_result"></p>
+    <hr>
+    <h3>Hasil Kedua</h3>
+    <p id="second_result"></p>
+
+    <script>
+        let v1, v2, v3;
+        v1 = 10;
+        v2 = 'saya belajar javascript';
+        v3 = 20;
+
+        document.getElementById('first_v').innerHTML = v1;
+        document.getElementById('second_v').innerHTML = v2;
+        document.getElementById('third_v').innerHTML = v3;
+
+        document.getElementById('first_result').innerHTML = v1 + v2;
+        document.getElementById('second_result').innerHTML = v1 + v3;
+    </script>
+</body>
+</html>
