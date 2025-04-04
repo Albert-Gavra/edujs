@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Data</title>
+</head>
+<body>
+    <h3>Tipe data dari length : <p id="hasil_pertama"></p></h3>
+    <hr>
+    
+    <h3>Tipe data dari lastname : <p id="hasil_kedua"></p></h3>
+    <hr>
+    
+    <h3>Tipe data dari x : <p id="hasil_ketiga"></p></h3>
+    <hr>
+
+    <script>
+        let length = 16
+        let lastname = "Johnson"
+        const x = {
+            firstName: "John",
+            lastName: "Doe"
+        }
+        document.getElementById('hasil_pertama').innerHTML = typeof length;
+        document.getElementById('hasil_kedua').innerHTML = typeof lastname;
+        document.getElementById('hasil_ketiga').innerHTML = typeof x;
+    </script>
+</body>
+</html>
